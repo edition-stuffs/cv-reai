@@ -11,53 +11,162 @@
 \begin{cventries}
 
 %------------------------------------------------
+ \begin{tabular}{|p{4.5cm} | p{2cm} | p{4cm} | p{2cm} | p{2cm}|}
+    \hline
+    \textbf{Company} & 
+    \textbf{City} & 
+    \textbf{Position} & 
+    \textbf{From} & \textbf{To} \\
+    \hline
 
-\cventry
-{Backend Engineer} % Job title
-{Blue Ocean Teach} % Organization
-{Havana, Cuba} % Location
-{Oct. 2017 - present} % Date(s)
-{ % Description(s) of tasks/responsibilities
-\begin{cvitems}
-  \item {Backend services for a enterprise search solution}
-  \item {Frameworks/languages: Play/Akka-HTTP/Scala}
-  \item {Data store: ElasticSearch}
-  \item {Microservices comunication layer: Kafka}
-\end{cvitems}
-}
+    BlueOcean Teach & 
+    New York, US \hspace{1cm} (remotely) & 
+    Backend Engineer & 
+    
+    Oct. 2017 & present \\ 
+    
+    \hline
 
+    \multicolumn{5}{|l|}{\textbf{General activities}} \\
+
+     \multicolumn{5}{|p{15cm}|}{
+       Backend services for an enterprise search solution
+       } \\
+    \hline
+    \textbf{Functional Experience} & \multicolumn{4}{p{12cm}|}{
+     
+     Backend services developer and DevOps Engineer, analysing the internals of the infraestructure and data services in order to impact the performance of the data pipeline. Implementing data intensive services.
+      
+      } \\
+      \hline
+      \textbf{Tools} & \multicolumn{4}{p{12cm}|}{
+                       \begin{description}
+                       
+                        \item[AWS] Cloud services: ECS/EC2, ECS as the orchestrator in the AWS Cloud.
+
+                        \item[Docker] Medium of packaging and deployment, using the docker services for building images.
+
+                        \item[Nomad/Consul] Docker containers orchestrator/scheduler (Nomad): On premisses and staging deployments, using Fabio as load balancer and reverse proxy. Consul is used for service discovery and configuration, for inter-services syncronization.
+
+                        \item[Logstash/Prometeus/Graphana] Monitoring and loging analysis.
+
+                        \item[Jenkins] CI/CD
+
+                        \item[Gradle/Maven/Sbt] Projects deployment cycle and dependeny managment.
+                        \item[Git] Project's tickets managment, history rewriting, source code control.
+
+                        \item[Python/Bash] Scrips for operations automatization.
+
+                        \item[Scala/Akka-HTTP/Play] Integration services, streaming endpoints, logs monitoring endpoints.
+
+                        \item[Java/Spring Boot] Fixing operationals issues.
+
+                       \end{description}
+      } \\
+ 
+
+    \hline
+
+  \end{tabular}
 
 %------------------------------------------------
 
-\cventry
-{Data Engineer} % Job title
-{Blue Ocean Teach} % Organization
-{Havana, Cuba} % Location
-{Jul. 2017 - Sept. 2017} % Date(s)
-{ % Description(s) of tasks/responsibilities
-\begin{cvitems}
-  \item {ETL}
-  \item {Frameworks/languages: Spark/Scala}
-  \item {Data store: S3/Redshift}
-\end{cvitems}
-}
 
+  \begin{tabular}{|p{4.5cm} | p{2cm} | p{4cm} | p{2cm} | p{2cm}|}
+    \hline
+    \textbf{Company} & 
+    \textbf{City} & 
+    \textbf{Position} & 
+    \textbf{From} & \textbf{To} \\
+     \hline
+    BlueOcean Teach & 
+    New York, US \hspace{1cm} (remotely) & 
+    Data Engineer & 
+    
+    Jul. 2017 & Sept. 2017 \\ 
+    \hline
+    \multicolumn{5}{|l|}{\textbf{General activities}} \\
+
+     \multicolumn{5}{|p{15cm}|}{
+       ETL developer for a bigdata project.
+       } \\
+     \hline
+    \textbf{Functional Experience} & \multicolumn{4}{p{12cm}|}{
+
+ Taking the general idea of the domain logic/constraint and transform it to an efficient Spark algorithm. Designing dataframes partition strategy for performance improvement. Using bucketing for optimizing a humongous theta join.
+      
+      } \\
+       \hline
+      \textbf{Tools} & \multicolumn{4}{p{12cm}|}{
+                       \begin{description}
+                       \item[Spark: AWS/EMR] Cluster for running the ETL.
+            
+                       \item[Redshift] Destination of the processing.
+                       \item[S3] Data ingestion origin.
+
+                       \item[Sbt] Projects deployment cycle and dependeny managment.
+                       \item[Git] History rewriting, source code control.
+
+                       \item[Scala/Spark] ETL programming.
+
+                       \end{description}
+      } \\
+ 
+
+    \hline
+
+  \end{tabular}
 
 %------------------------------------------------
 
-\cventry
-{Backend Engineer} % Job title
-{Blue Ocean Teach} % Organization
-{Havana, Cuba} % Location
-{Jan. 2017 - Jun. 2017} % Date(s)
-{ % Description(s) of tasks/responsibilities
-\begin{cvitems}
-  \item {Backend services for a custom websearcher (Goghr/www.gogophr.com)}
-  \item {Frameworks/languages: Play/Scala}
-  \item {Data store: DynamoDb}
-\end{cvitems}
-}
 
+ \begin{tabular}{|p{4.5cm} | p{2cm} | p{4cm} | p{2cm} | p{2cm}|}
+    \hline
+    \textbf{Company} & 
+    \textbf{City} & 
+    \textbf{Position} & 
+    \textbf{From} & \textbf{To} \\
+     \hline
+    BlueOcean Teach & 
+    New York, US \hspace{1cm} (remotely) & 
+    Backend Engineer & 
+    
+    Jan. 2017 & Jun. 2017 \\ 
+    \hline
+    \multicolumn{5}{|l|}{\textbf{General activities}} \\
+
+     \multicolumn{5}{|p{15cm}|}{
+       Backend services for a metasearcher (Goghr/www.gogophr.com)
+       } \\
+ \hline
+    \textbf{Functional Experience} & \multicolumn{4}{p{12cm}|}{
+
+      Developing APIs for CRUD operations over DynamoDB. Implementing a reactive search experience using websockets. Integration with Google's and Bing's APIs, facing challenges like provider's API keys managment.
+
+      } \\
+ \hline
+      \textbf{Tools} & \multicolumn{4}{p{12cm}|}{
+                       \begin{description}
+                       \item[AWS] Cloud services: S3/EC2.
+                       \item[Docker] Medium of packaging and deployment, using the docker services for building images.
+
+                       \item[Nomad/Consul]  Docker containers orchestrator/scheduler (Nomad). Consul is used for service discovery and configuration.
+                       \item[Jenkins] CI/CD
+
+                       \item[Gradle/Maven/Sbt] Projects deployment cycle and dependeny managment.
+                       \item[Git]  Project's tickets managment, history rewriting, source code control.
+
+                       \item[Scala/Play] Data access layer, integration with Google's and Bing's APIs.
+
+                      \item[DynamoDb] Data store.
+
+                       \end{description}
+      } \\
+ 
+
+    \hline
+
+  \end{tabular}
 %------------------------------------------------
 
 \cventry
